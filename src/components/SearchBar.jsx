@@ -1,6 +1,8 @@
 const SearchBar = () => {
   return (
-    <div>SearchBar</div>
+    <div className="searchBar">
+      <input placeholder="Search"/>
+    </div>
   )
 }
 export default SearchBar

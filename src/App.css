@@ -1,9 +1,10 @@
 .App {
   text-align: center;
   border:solid black;
-  height: 500vh;
-  margin:2em;
+  /* height: 80vh; */
+  margin: 3em auto 0 auto;
   display: flex;
+  width: 80vw;
 }
 
 .App-logo {
@@ -44,11 +45,96 @@
 .homepage{
   border:solid peru;
   width: 50%;
+  margin: 3px;
 }
 .emp_page{
   border:solid brown;
   width: 50%;
+  margin: 3px;  
 }
 .header{
-  border: solid lightblue;
+  border: solid blue;
+  margin: 3px;
+  padding: 1em;
+  font-weight: bold;
+  font-size: large;
+}
+.searchBar{
+  border: solid green;
+  margin: 3px;
+}
+.employeeList{
+  border: solid purple;
+  margin: 3px;
+}
+.employeeListItem{
+  border: solid red;
+  margin: 3px;
+  display: flex;
+}
+
+.employeeListItemImage{
+  width: 20%;
+  margin: 0 0 1em 0;
+}
+.employeeListItemInfo{
+  width: 80%;
+  margin: 0 1em 1em 1em;
+
+}
+.employeeListItemName{
+  width: 100%;
+  text-align: start;
+  font-size: x-large;
+  font-weight: bold;
+}
+.employeeListItemTitle{
+  width: 100%;
+  text-align: start;
+  font-size: large;
+  margin-top: .2em;
+}
+
+
+.topContainer{
+  border:solid black;
+  display:flex;
+  justify-content: space-around;
+}
+.profile{
+  border:solid blue;
+  border-radius:50%;
+  height:90px;
+  width:90px;
+}
+.infoBox{
+  border:solid purple;
+  width:40%;
+}
+.sbar{
+  border:solid green;
+}
+.emp_li{
+  border:solid red;
+  margin:1em;
+}
+.empMaster{
+  border:solid purple;
+  margin:1em;
+}
+.selectContainer{
+  border:solid black;
+  border-width:.2px;
+  margin:1em;
+  display:flex;
+  justify-content: space-between;
+}
+.pTitle,.pNum{
+  font-size:15px;
+  text-align:center;
+  padding:2px;
+}
+.arrow{
+  height:30px;
+  margin-top:5%;
 }

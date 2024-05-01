@@ -1,10 +1,13 @@
 import Header from "./Header"
+import SearchBar from './SearchBar'
+import EmployeeList from './EmployeeList'
 
-const Homepage = ({title}) => {
+const Homepage = ({title, workers}) => {
   return (
     <div className="homepage">
-        Homepage 
         <Header topic={title}/>
+        <SearchBar/>
+        <EmployeeList staff={workers}/>
     </div>
   )
 }

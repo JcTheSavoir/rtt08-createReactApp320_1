@@ -1,6 +1,15 @@
-const EmployeeList = () => {
+import EmployeeListItem from "./EmployeeListItem";
+
+const EmployeeList = ({ staff }) => {
   return (
-    <div>EmployeeList</div>
-  )
-}
-export default EmployeeList
+    <div className="employeeList">
+      {staff.map(worker => (
+        <EmployeeListItem info={worker} />
+      ))}
+      
+    </div>
+  );
+};
+
+
+export default EmployeeList;
